@@ -530,12 +530,12 @@ ${showCanvas && !fadeOutCanvas ? "opacity-100" : "opacity-0"}`;
             <img
               src="/image2.jpg"
               alt="Spicy Mode Image 1"
-              className="w-full sm:w-1/2 rounded-2xl shadow-xl animate-fade-scale-in"
+              className="sm:w-1/2 rounded-2xl shadow-xl animate-fade-scale-in"
             />
             <img
               src="/image3.jpg"
               alt="Spicy Mode Image 2"
-              className="w-full sm:w-1/2 rounded-2xl shadow-xl animate-fade-scale-in"
+              className="sm:w-1/2 rounded-2xl shadow-xl animate-fade-scale-in"
             />
           </div>
         ) : (
