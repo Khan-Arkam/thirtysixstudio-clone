@@ -7,9 +7,13 @@ body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   cursor: default;
   max-width: 100vw;
+}
+
+html {
+  scrollbar-gutter: stable;
 }
 
 canvas {

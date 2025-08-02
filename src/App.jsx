@@ -514,8 +514,10 @@ ${showCanvas && !fadeOutCanvas ? "opacity-100" : "opacity-0"}`;
         </div>
       </div>
       <div
-       className={`w-full relative min-h-screen px-4 sm:px-8 md:px-10 flex items-center justify-center font-['Helvetica_Now_Display']${pageLoaded ? "animate-fade-in-delay-1" : "opacity-0"}`}
-      >
+  className={`w-full relative min-h-screen px-4 sm:px-8 md:px-10 flex items-center justify-center font-['Helvetica_Now_Display']${
+    pageLoaded ? "animate-fade-in-delay-1" : "opacity-0"
+  }`}
+>
         <div
           className={`${canvasContainerClass} absolute top-0 left-0 w-full h-full z-8`}
         >
@@ -568,8 +570,8 @@ ${showCanvas && !fadeOutCanvas ? "opacity-100" : "opacity-0"}`;
         )}
       </div>
 
-      <div className="w-full relative h-full font-['Helvetica_Now_Display']">
-        <div className={`${canvasContainerClass}`}>
+      <div className="w-full relative min-h-screen font-['Helvetica_Now_Display']">
+        <div className={`${canvasContainerClass} fixed w-full h-screen]`}>
           {data[3].map((canvasdets, index) => (
             <Canvas key={index} details={canvasdets} />
           ))}
