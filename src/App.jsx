@@ -514,8 +514,7 @@ ${showCanvas && !fadeOutCanvas ? "opacity-100" : "opacity-0"}`;
         </div>
       </div>
       <div
-        className={`w-full relative h-screen px-4 sm:px-8 md:px-10 flex items-center justify-center font-['Helvetica_Now_Display']${pageLoaded ? "animate-fade-in-delay-1" : "opacity-0"
-          } `}
+       className={`w-full relative min-h-screen px-4 sm:px-8 md:px-10 flex items-center justify-center font-['Helvetica_Now_Display']${pageLoaded ? "animate-fade-in-delay-1" : "opacity-0"}`}
       >
         <div
           className={`${canvasContainerClass} absolute top-0 left-0 w-full h-full z-8`}
